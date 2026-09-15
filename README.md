@@ -11,7 +11,7 @@ Thank you!
 ## Main Taxonomy Branches
 
 <center>
-<img src="./images/taxonomy_branch.png" width="800"/>
+<img src="./images/taxonomy_branch.png" width="600"/>
 </center>
 
 ---
