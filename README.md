@@ -1,13 +1,17 @@
 # Awesome-Task-Adaptation-for-Large-Language-Models
 
-This is the GitHub repository for Task Adaptation for Large Language Models, where we aggregate and organize papers included in our taxonomy. The taxonomy is still being updated, and we welcome recommendations, corrections, or missing references. Please feel free to contact our team at **quoded97@snu.ac.kr**. 
-
-Survey Paper: Under Review
+This is the GitHub repository for **"Efficient Task Adaptation in Large Language Models: A Survey of Weight-Based, Prompt-Based, and Embedding-Based Adaptations" (Accepted by AACL-IJCNLP 2026 Main)**, where we aggregate and organize papers included in our taxonomy. The taxonomy is still being updated, and we welcome recommendations, corrections, or missing references. Please feel free to contact our team at **quoded97@snu.ac.kr**. 
 
 Thank you!
 
 <center>
 <img src="./images/survey_overview.png" width="800"/>
+</center>
+
+## Main Taxonomy Branches
+
+<center>
+<img src="./images/taxonomy_branch.png" width="800"/>
 </center>
 
 ---
@@ -24,7 +28,7 @@ Thank you!
 | [**HIRA: Parameter-Efficient Hadamard High-Rank Adaptation**](https://openreview.net/pdf?id=TwJrTz9cRS) | ICLR (Oral) | 2025-01-23 | [GitHub](https://github.com/hqsiswiliam/hira) |
 | [**LoRA-GA: Low-Rank Adaptation with Gradient Approximation**](https://arxiv.org/pdf/2407.05000) | NeurIPS | 2024-07-06 | [GitHub](https://github.com/Outsider565/LoRA-GA) |
 | [**Mixture-of-Subspaces in Low-Rank Adaptation**](https://arxiv.org/pdf/2406.11909) | EMNLP (Oral) | 2024-06-16 | [GitHub](https://github.com/wutaiqiang/MoSLoRA) |
-| [**LoRA-XS: Low-Rank Adaptation with Extremely Small Number of Parameters**](https://arxiv.org/pdf/2405.17604) | arXiv | 2024-05-27 | [GitHub](https://github.com/mohammadrezabanaei/lora-xs) |
+| [**LoRA-XS: Low-Rank Adaptation with Extremely Small Number of Parameters**](https://arxiv.org/pdf/2405.17604) | ECAI 2025 | 2024-05-27 | [GitHub](https://github.com/mohammadrezabanaei/lora-xs) |
 | [**VB-LoRA: Extreme Parameter Efficient Fine-Tuning with Vector Banks**](https://arxiv.org/pdf/2405.15179) | NeurIPS | 2024-05-24 | [GitHub](https://github.com/leo-yangli/vb-lora) |
 | [**MoRA: High-Rank Updating for Parameter-Efficient Fine-Tuning**](https://arxiv.org/pdf/2405.12130) | arXiv | 2024-05-20 | [GitHub](https://github.com/kongds/MoRA) |
 | [**PiSSA: Principal Singular Values and Singular Vectors Adaptation of Large Language Models**](https://arxiv.org/pdf/2404.02948) | NeurIPS | 2024-04-03 | [GitHub](https://github.com/GraphPKU/PiSSA) |
@@ -48,28 +52,28 @@ Thank you!
 |:--------|:--------:|:--------:|:--------:|
 | [**ADePT: Adaptive Decomposed Prompt Tuning for Parameter-Efficient Fine-tuning**](https://arxiv.org/pdf/2501.03291) | ICLR | 2025-01-06 | [GitHub](https://github.com/HungerPWAY/ADePT) |
 | [**PARA: Parameter-Efficient Fine-tuning with Prompt Aware Representation Adjustment**](https://arxiv.org/pdf/2502.01033) | EMNLP | 2024-11-12 |  |
-| [**3-in-1: 2D Rotary Adaptation for Efficient Finetuning, Efficient Batching and Composability**](https://arxiv.org/pdf/2409.00119) | NeurIPS | 2024-08-28 |  |
-| [**Parameter-Efficient Fine-Tuning with Discrete Fourier Transform**](https://arxiv.org/pdf/2405.03003) | ICML | 2024-05-05 |  |
+| [**3-in-1: 2D Rotary Adaptation for Efficient Finetuning, Efficient Batching and Composability**](https://arxiv.org/pdf/2409.00119) | NeurIPS | 2024-08-28 | [GitHub](https://github.com/BaohaoLiao/road) |
+| [**Parameter-Efficient Fine-Tuning with Discrete Fourier Transform**](https://arxiv.org/pdf/2405.03003) | ICML | 2024-05-05 | [GitHub](https://github.com/Chaos96/fourierft) |
 | [**Advancing Parameter Efficiency in Fine-tuning via Representation Editing**](https://arxiv.org/pdf/2402.15179) | ACL | 2024-02-23 | [GitHub](https://github.com/mlwu22/RED) |
-| [**ComPEFT: Compression for Communicating Parameter Efficient Updates via Sparsification and Quantization**](https://arxiv.org/pdf/2311.13171) | TMLR | 2023-11-22 |  |
+| [**ComPEFT: Compression for Communicating Parameter Efficient Updates via Sparsification and Quantization**](https://arxiv.org/pdf/2311.13171) | TMLR | 2023-11-22 | [GitHub](https://github.com/prateeky2806/ComPEFT) |
 | [**DePT: Decomposed Prompt Tuning for Parameter-Efficient Fine-tuning**](https://arxiv.org/pdf/2309.05173) | ICLR | 2023-09-11 | [GitHub](https://github.com/ShiZhengyan/DePT) |
 | [**LST: Ladder Side-Tuning for Parameter and Memory Efficient Transfer Learning**](https://arxiv.org/pdf/2206.06522) | NeurIPS | 2022-06-13 | [GitHub](https://github.com/ylsung/Ladder-Side-Tuning) |
 | [**Few-Shot Parameter-Efficient Fine-Tuning is Better and Cheaper than In-Context Learning**](https://arxiv.org/pdf/2205.05638) | NeurIPS | 2022-05-11 | [GitHub](https://github.com/r-three/t-few) |
-| [**Training Neural Networks with Fixed Sparse Masks**](https://arxiv.org/pdf/2111.09839) | NeurIPS | 2021-11-18 |  |
+| [**Training Neural Networks with Fixed Sparse Masks**](https://arxiv.org/pdf/2111.09839) | NeurIPS | 2021-11-18 | [GitHub](https://github.com/varunnair18/FISH) |
 | [**BitFit: Simple Parameter-efficient Fine-tuning for Transformer-based Masked Language-models**](https://arxiv.org/pdf/2106.10199) | ACL | 2021-06-18 | [GitHub](https://github.com/benzakenelad/BitFit) |
 | [**Compacter: Efficient Low-Rank Hypercomplex Adapter Layers**](https://arxiv.org/pdf/2106.04647) | NeurIPS | 2021-06-08 | [GitHub](https://github.com/rabeehk/compacter) |
 | [**Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning**](https://arxiv.org/pdf/2012.13255) | ACL | 2020-12-22 | [GitHub](https://github.com/rojagtap/intrinsic-dimension-lm-fine-tuning) |
-| [**Parameter-Efficient Transfer Learning for NLP**](https://arxiv.org/pdf/1902.00751) | ICML | 2019-02-02 |  |
+| [**Parameter-Efficient Transfer Learning for NLP**](https://arxiv.org/pdf/1902.00751) | ICML | 2019-02-02 | [GitHub](https://github.com/google-research/adapter-bert) |
 
 ### Multi-Task Adaptation
 
 #### Multi-Task PEFT
 |  Title  |   Venue  |   Date   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
-| [**R-LoRA: Randomized Multi-Head LoRA for Efficient Multi-Task Learning**](https://arxiv.org/pdf/2502.15455) | EMNLP Findings | 2025-02-21 |  |
+| [**R-LoRA: Randomized Multi-Head LoRA for Efficient Multi-Task Learning**](https://arxiv.org/pdf/2502.15455) | EMNLP Findings | 2025-02-21 | [GitHub](https://github.com/jinda-liu/R-LoRA) |
 | [**Efficient Multi-task LLM Quantization and Serving for Multiple LoRA Adapters**](https://openreview.net/pdf?id=HfpV6u0kbX) | NeurIPS | 2024-09-26 |  |
 | [**Sparse High Rank Adapters**](https://arxiv.org/pdf/2406.13175) | NeurIPS | 2024-06-19 | [GitHub](https://huggingface.co/docs/peft/en/package_reference/shira) |
-| [**MeteoRA: Multiple-tasks Embedded LoRA for Large Language Models**](https://arxiv.org/pdf/2405.13053) | ICLR | 2024-05-19 |  |
+| [**MeteoRA: Multiple-tasks Embedded LoRA for Large Language Models**](https://arxiv.org/pdf/2405.13053) | ICLR | 2024-05-19 | [GitHub](https://github.com/NJUDeepEngine/meteora) |
 | [**HydraLoRA: An Asymmetric LoRA Architecture for Efficient Fine-Tuning**](https://arxiv.org/pdf/2404.19245) | NeurIPS (Oral) | 2024-04-30 | [GitHub](https://github.com/Clin0212/HydraLoRA) |
 | [**MTLoRA: A Low-Rank Adaptation Approach for Efficient Multi-Task Learning**](https://arxiv.org/pdf/2403.20320) | CVPR | 2024-03-29 | [GitHub](https://github.com/scale-lab/MTLoRA) |
 | [**Mixture-of-LoRAs: An Efficient Multitask Tuning for Large Language Models**](https://arxiv.org/pdf/2403.03432) | COLING | 2024-03-06 |  |
@@ -77,8 +81,8 @@ Thank you!
 | [**Customizable Combination of Parameter-Efficient Modules for Multi-Task Learning**](https://arxiv.org/pdf/2312.03248) | ICLR | 2023-12-06 |  |
 | [**MultiLoRA: Democratizing LoRA for Better Multi-Task Learning**](https://arxiv.org/pdf/2311.11501) | arXiv | 2023-11-20 |  |
 | [**Orthogonal Subspace Learning for Language Model Continual Learning**](https://arxiv.org/pdf/2310.14152) | EMNLP Findings | 2023-10-22 | [GitHub](https://github.com/cmnfriend/O-LoRA) |
-| [**LoraHub: Efficient Cross-Task Generalization via Dynamic LoRA Composition**](https://arxiv.org/pdf/2307.13269) | COLM | 2023-07-25 |  |
-| [**AdapterFusion: Non-Destructive Task Composition for Transfer Learning**](https://arxiv.org/pdf/2005.00247) | EACL | 2020-05-01 |  |
+| [**LoraHub: Efficient Cross-Task Generalization via Dynamic LoRA Composition**](https://arxiv.org/pdf/2307.13269) | COLM | 2023-07-25 | [GitHub](https://github.com/sail-sg/lorahub) |
+| [**AdapterFusion: Non-Destructive Task Composition for Transfer Learning**](https://arxiv.org/pdf/2005.00247) | EACL | 2020-05-01 | [GitHub](https://github.com/Adapter-Hub/adapters) |
 
 #### Model Merging
 |  Title  |   Venue  |   Date   |   Code   |
@@ -88,7 +92,7 @@ Thank you!
 | [**Efficient Model Editing with Task-Localized Sparse Fine-tuning**](https://arxiv.org/pdf/2504.02620) | ICLR | 2025-04-03 | [GitHub](https://github.com/iurada/talos-task-arithmetic) |
 | [**Scalable Model Merging with Progressive Layer-wise Distillation**](https://arxiv.org/pdf/2502.12706) | ICML | 2025-02-18 | [GitHub](https://github.com/JingXuTHU/Scalable_Model_Merging_with_Progressive_Layerwise_Distillation) |
 | [**Activation-Informed Merging of Large Language Models**](https://arxiv.org/pdf/2502.02421) | NeurIPS | 2025-02-04 | [GitHub](https://github.com/ahnobari/ActivationInformedMerging) |
-| [**Task Singular Vectors: Reducing Task Interference in Model Merging**](https://arxiv.org/pdf/2412.00081) | CVPR | 2024-11-26 |  |
+| [**Task Singular Vectors: Reducing Task Interference in Model Merging**](https://arxiv.org/pdf/2412.00081) | CVPR | 2024-11-26 | [GitHub](https://github.com/AntoAndGar/task_singular_vectors) |
 | [**Merging LoRAs like Playing LEGO: Pushing the Modularity of LoRA to Extremes Through Rank-Wise Clustering**](https://arxiv.org/pdf/2409.16167) | ICLR | 2024-09-24 |  |
 | [**MetaGPT: Merging Large Language Models Using Model Exclusive Task Arithmetic**](https://arxiv.org/pdf/2406.11385) | EMNLP | 2024-06-17 |  |
 | [**Language Models are Super Mario: Absorbing Abilities from Homologous Models as a Free Lunch**](https://arxiv.org/pdf/2311.03099) | ICML | 2023-11-06 | [GitHub](https://github.com/yule-BUAA/MergeLM) |
@@ -111,9 +115,9 @@ Thank you!
 |:--------|:--------:|:--------:|:--------:|
 | [**GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning**](https://arxiv.org/pdf/2507.19457)                  |  ICLR (Oral) | 2025-07-25 | [GitHub](https://github.com/gepa-ai/gepa) |
 | [**Local Prompt Optimization**](https://arxiv.org/pdf/2504.20355) | NAACL (Oral) | 2025-04-29 |  |
-| [**GReaTer: Gradients over Reasoning Makes Smaller Language Models Strong Prompt Optimizers**](https://arxiv.org/pdf/2412.09722) | ICLR | 2024-12-12 |  |
+| [**GReaTer: Gradients over Reasoning Makes Smaller Language Models Strong Prompt Optimizers**](https://arxiv.org/pdf/2412.09722) | ICLR | 2024-12-12 | [GitHub](https://github.com/psunlpgroup/GreaTer) |
 | [**Efficient and Accurate Prompt Optimization: the Benefit of Memory in Exemplar-Guided Reflection**](https://arxiv.org/pdf/2411.07446) | ACL | 2024-11-12 |  |
-| [**Task Facet Learning: A Structured Approach To Prompt Optimization**](https://arxiv.org/pdf/2406.10504) | ACL Findings | 2024-06-15 |  |
+| [**Task Facet Learning: A Structured Approach To Prompt Optimization**](https://arxiv.org/pdf/2406.10504) | ACL Findings | 2024-06-15 | [GitHub](https://github.com/microsoft/uniprompt) |
 | [**PromptWizard: Task-Aware Prompt Optimization Framework**](https://arxiv.org/pdf/2405.18369) | ACL Findings | 2024-05-28 | [GitHub](https://github.com/microsoft/PromptWizard) |
 | [**Localized Zeroth-Order Prompt Optimization**](https://arxiv.org/pdf/2403.02993) | NeurIPS | 2024-03-05 | [GitHub](https://github.com/allen4747/ZOPO) |
 | [**Unleashing the Potential of Large Language Models as Prompt Optimizers: Analogical Analysis with Gradient-based Model Optimizers**](https://arxiv.org/pdf/2402.17564) | AAAI | 2024-02-27 | [GitHub](https://github.com/RUCAIBox/GPO) |
@@ -143,7 +147,7 @@ Thank you!
 |:--------|:--------:|:--------:|:--------:|
 | [**Linear-Time Demonstration Selection for In-Context Learning via Gradient Estimation**](https://arxiv.org/pdf/2508.19999) | EMNLP | 2025-08-27 | [GitHub](https://github.com/VirtuosoResearch/ICL-GradSel) |
 | [**Sample Efficient Demonstration Selection for In-Context Learning**](https://arxiv.org/pdf/2506.08607) | ICML | 2025-06-10 | [GitHub](https://github.com/kiranpurohit/CASE) |
-| [**Selecting Demonstrations for Many-Shot In-Context Learning via Gradient Matching**](https://www.arxiv.org/pdf/2506.04579) | ACL Findings | 2025-06-05 |  |
+| [**Selecting Demonstrations for Many-Shot In-Context Learning via Gradient Matching**](https://www.arxiv.org/pdf/2506.04579) | ACL Findings | 2025-06-05 | [GitHub](https://github.com/zhangjf-nlp/ManyShotICL-CLG) |
 | [**Learning to Select In-Context Demonstration Preferred by Large Language Model**](https://arxiv.org/pdf/2505.19966) | ACL Findings | 2025-05-26 | [GitHub](https://github.com/zheng-z18/GenICL_preferred) |
 | [**Revisiting Demonstration Selection Strategies in In-Context Learning**](https://arxiv.org/pdf/2401.12087) | ACL | 2024-01-22 | [GitHub](https://github.com/Romainpkq/revisit_demon_selection_in_ICL) |
 | [**Representative Demonstration Selection for In-Context Learning with Two-Stage Determinantal Point Process**](https://aclanthology.org/2023.emnlp-main.331.pdf) | EMNLP | 2023-12-06 |  |
@@ -163,10 +167,10 @@ Thank you!
 |  Title  |   Venue  |   Date   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
 | [**Demonstration Selection for In-Context Learning via Reinforcement Learning**](https://arxiv.org/pdf/2412.03966) | ICML | 2024-12-05 |  |
-| [**What Makes a Good Order of Examples in In-Context Learning**](https://aclanthology.org/2024.findings-acl.884.pdf) | ACL Findings | 2024-08-11 |  |
+| [**What Makes a Good Order of Examples in In-Context Learning**](https://aclanthology.org/2024.findings-acl.884.pdf) | ACL Findings | 2024-08-11 | [GitHub](https://github.com/GuoQi2000/DSICL) |
 | [**Prompt Optimization with EASE? Efficient Ordering-aware Automated Selection of Exemplars**](https://arxiv.org/pdf/2405.16122) | NeurIPS | 2024-05-25 | [GitHub](https://github.com/ZhaoxuanWu/EASE-Prompt-Optimization) |
-| [**Se²: Sequential Example Selection for In-Context Learning**](https://arxiv.org/pdf/2402.13874) | ACL Findings | 2024-02-21 |  |
-| [**Let's Learn Step by Step: Enhancing In-Context Learning Ability with Curriculum Learning**](https://arxiv.org/pdf/2402.10738) | arXiv | 2024-02-16 |  |
+| [**Se²: Sequential Example Selection for In-Context Learning**](https://arxiv.org/pdf/2402.13874) | ACL Findings | 2024-02-21 | [GitHub](https://github.com/microsoft/LMOps) |
+| [**Let's Learn Step by Step: Enhancing In-Context Learning Ability with Curriculum Learning**](https://arxiv.org/pdf/2402.10738) | arXiv | 2024-02-16 | [GitHub](https://github.com/61peng/curri_learning) |
 | [**RetICL: Sequential Retrieval of In-Context Examples with Reinforcement Learning**](https://arxiv.org/pdf/2305.14502) | arXiv | 2023-05-23 | [GitHub](https://github.com/umass-ml4ed/RetICL) |
 | [**Self-Adaptive In-Context Learning: An Information Compression Perspective for In-Context Example Selection and Ordering**](https://arxiv.org/pdf/2212.10375) | ACL | 2022-12-20 | [GitHub](https://github.com/Shark-NLP/self-adaptive-ICL) |
 | [**Active Example Selection for In-Context Learning**](https://arxiv.org/pdf/2211.04486) | EMNLP | 2022-11-08 | [GitHub](https://github.com/ChicagoHAI/active-example-selection) |
@@ -176,7 +180,7 @@ Thank you!
 #### Selective Demonstration Annotation
 |  Title  |   Venue  |   Date   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
-| [**Which Examples to Annotate for In-Context Learning? Towards Effective and Efficient Selection**](https://arxiv.org/pdf/2310.20046) | arXiv | 2023-10-30 |  |
+| [**Which Examples to Annotate for In-Context Learning? Towards Effective and Efficient Selection**](https://arxiv.org/pdf/2310.20046) | arXiv | 2023-10-30 | [GitHub](https://github.com/amazon-science/adaptive-in-context-learning) |
 | [**IDEAL: Influence-Driven Selective Annotations Empower In-Context Learners in Large Language Models**](https://arxiv.org/pdf/2310.10873) | ICLR | 2023-10-16 | [GitHub](https://github.com/skzhang1/IDEAL) |
 | [**Selective Annotation Makes Language Models Better Few-Shot Learners**](https://arxiv.org/pdf/2209.01975) | ICLR | 2022-09-05 | [GitHub](https://github.com/xlang-ai/icl-selective-annotation) |
 
@@ -197,7 +201,7 @@ Thank you!
 | [**Focused Large Language Models are Stable Many-Shot Learners**](https://arxiv.org/pdf/2408.13987) | EMNLP | 2024-08-26 |  |
 | [**In-Context Learning with Long-Context Models: An In-Depth Exploration**](https://arxiv.org/pdf/2405.00200) | NAACL | 2024-04-30 | [GitHub](https://github.com/abertsch72/long-context-icl) |
 | [**Many-Shot In-Context Learning**](https://arxiv.org/pdf/2404.11018) | NeurIPS | 2024-04-17 |  |
-| [**Structured Prompting: Scaling In-Context Learning to 1,000 Examples**](https://arxiv.org/pdf/2212.06713) | arXiv | 2022-12-13 |  |
+| [**Structured Prompting: Scaling In-Context Learning to 1,000 Examples**](https://arxiv.org/pdf/2212.06713) | arXiv | 2022-12-13 | [GitHub](https://github.com/microsoft/LMOps/tree/main/structured_prompting/fairseq-version) |
 
 
 ## Embedding-Based Adaptation
@@ -207,7 +211,7 @@ Thank you!
 #### Non-Contrastively Derived
 |  Title  |   Venue  |   Date   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
-| [**Soft Injection of Task Embeddings Outperforms Prompt-Based In-Context Learning**](https://arxiv.org/pdf/2507.20906) | arXiv | 2025-07-28 | [GitHub](https://github.com/SNU-DRL/Soft_Injection) |
+| [**Soft Head Selection for Injecting ICL-Derived Task Embeddings**](https://arxiv.org/pdf/2507.20906) | ACL Findings | 2025-07-28 | [GitHub](https://github.com/SNU-DRL/Soft_Injection) |
 | [**Beyond Demonstrations: Dynamic Vector Construction from Latent Representations**](https://arxiv.org/pdf/2505.20318) | EMNLP | 2025-05-23 |  |
 | [**ELICIT: LLM Augmentation via External In-Context Capability**](https://arxiv.org/pdf/2410.09343) | ICLR | 2024-10-12 | [GitHub](https://github.com/LINs-lab/ELICIT) |
 | [**Multimodal Task Vectors Enable Many-Shot Multimodal In-Context Learning**](https://arxiv.org/pdf/2406.15334) | NeurIPS | 2024-06-21 | [GitHub](https://github.com/Brandon3964/MultiModal-Task-Vector) |
@@ -220,7 +224,7 @@ Thank you!
 #### Contrastively Derived
 |  Title  |   Venue  |   Date   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
-| [**Prototype-Based Dynamic Steering for Large Language Models**](https://arxiv.org/pdf/2510.05498) | arXiv | 2025-10-07 |  |
+| [**Prototype-Based Dynamic Steering for Large Language Models**](https://arxiv.org/pdf/2510.05498) | EMNLP | 2025-10-07 |  |
 | [**Iterative Vectors: In-Context Gradient Steering without Backpropagation**](https://openreview.net/pdf?id=1v3XEcRMyP) | ICML | 2025-07-13 | [GitHub](https://github.com/ArkciaTheDragon/iterative-vectors) |
 | [**REAL: Reading Out Transformer Activations for Precise Localization in Language Model Steering**](https://arxiv.org/pdf/2506.08359) | ICLR | 2025-06-10 |  |
 | [**Semantics-Adaptive Activation Intervention for LLMs via Dynamic Steering Vectors**](https://arxiv.org/pdf/2410.12299) | ICLR | 2024-10-16 | [GitHub](https://github.com/weixuan-wang123/SADI) |
@@ -241,7 +245,7 @@ Thank you!
 | [**Prompt Tuning Strikes Back: Customizing Foundation Models with Low-Rank Prompt Adaptation**](https://arxiv.org/pdf/2405.15282) | NeurIPS | 2024-05-24 | [GitHub](https://github.com/jabhinav/Prompt-Tuning-Strikes-Back-with-LOPA) |
 | [**Multitask Prompt Tuning Enables Parameter-Efficient Transfer Learning**](https://arxiv.org/pdf/2303.02861) | ICLR | 2023-03-06 |  |
 | [**Progressive Prompts: Continual Learning for Language Models**](https://arxiv.org/pdf/2301.12314) | ICLR | 2023-01-29 |  |
-| [**ATTEMPT: Parameter-Efficient Multi-task Tuning via Attentional Mixtures of Soft Prompts**](https://arxiv.org/pdf/2205.11961) | EMNLP | 2022-05-24 |  |
+| [**ATTEMPT: Parameter-Efficient Multi-task Tuning via Attentional Mixtures of Soft Prompts**](https://arxiv.org/pdf/2205.11961) | EMNLP | 2022-05-24 | [GitHub](https://github.com/AkariAsai/ATTEMPT) |
 | [**SPoT: Better Frozen Model Adaptation through Soft Prompt Transfer**](https://arxiv.org/pdf/2110.07904) | ACL | 2021-10-15 | [GitHub](https://github.com/google-research/prompt-tuning/tree/main/prompt_tuning/spot) |
 | [**P-Tuning v2: Prompt Tuning Can Be Comparable to Fine-tuning Universally Across Scales and Tasks**](https://arxiv.org/pdf/2110.07602) | ACL | 2021-10-14 | [GitHub](https://github.com/THUDM/P-tuning-v2) |
 | [**The Power of Scale for Parameter-Efficient Prompt Tuning**](https://arxiv.org/pdf/2104.08691) | EMNLP | 2021-04-18 | [GitHub](https://github.com/mkshing/Prompt-Tuning) |
@@ -252,8 +256,8 @@ Thank you!
 #### Other Learned Embeddings
 |  Title  |   Venue  |   Date   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
-| [**Task Vectors, Learned Not Extracted: Performance Gains and Mechanistic Insight**](https://arxiv.org/pdf/2509.24169) | ICLR | 2025-09-29 |  |
-| [**Towards Generalizable Implicit In-Context Learning with Attention Routing**](https://arxiv.org/pdf/2509.22854) | arXiv | 2025-09-26 |  |
+| [**Task Vectors, Learned Not Extracted: Performance Gains and Mechanistic Insight**](https://arxiv.org/pdf/2509.24169) | ICLR | 2025-09-29 | [GitHub](https://github.com/HLYang2001/Learned_TV) |
+| [**Train Once, Reuse Everywhere: Generalizable Implicit In-Context Learning by Routing Attention**](https://arxiv.org/pdf/2509.22854) | ICML | 2025-09-26 | [GitHub](https://github.com/Lijiaqian1/In-Context-Routing) |
 | [**Adaptive Task Vectors for Large Language Models**](https://arxiv.org/pdf/2506.03426) | arXiv | 2025-06-03 | [GitHub](https://github.com/MLAI-Yonsei/ATV) |
 | [**M²IV: Towards Efficient and Fine-grained Multimodal In-Context Learning via Representation Engineering**](https://arxiv.org/pdf/2504.04633) | COLM | 2025-04-06 |  |
 | [**Learning Task Representations from In-Context Learning**](https://arxiv.org/pdf/2502.05390) | ACL Findings | 2025-02-08 | [GitHub](https://github.com/Brandon3964/MultiModal-Task-Vector) |
